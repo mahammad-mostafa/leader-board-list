@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/mahammad-mostafa/leaderboard-list-app/issues"
   },
-  "homepage": "https://github.com/mahammad-mostafa/leaderboard-list-app/dist"
+  "homepage": "https://github.com/mahammad-mostafa/leaderboard-list-app/dist",
+  "devDependencies": {
+    "hint": "^7.1.10"
+  }
 }
