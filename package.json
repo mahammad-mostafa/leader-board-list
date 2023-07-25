@@ -1,20 +1,22 @@
 {
   "name": "leaderboard-list-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Leaderboard list app",
   "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack serve -open",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mahammad-mostafa/leaderboard-list-app.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Mahammad Mostafa",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mahammad-mostafa/leaderboard-list-app/issues"
   },
-  "homepage": "https://github.com/mahammad-mostafa/leaderboard-list-app#readme"
+  "homepage": "https://github.com/mahammad-mostafa/leaderboard-list-app/dist"
 }
