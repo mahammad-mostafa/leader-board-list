@@ -7,10 +7,10 @@ module.exports = {
   output: {
     clean: true,
     filename: 'main.js',
-    path: Path.resolve(__dirname, './dist')
+    path: Path.resolve(__dirname, './dist'),
   },
   module: {
-    rules: [{ test: /\.css$/i, use: ['style-loader', 'css-loader'] }]
+    rules: [{ test: /\.css$/i, use: ['style-loader', 'css-loader'] }],
   },
-  plugins: [new Html({ template: './src/index.html' })]
+  plugins: [new Html({ template: './src/index.html' })],
 };
