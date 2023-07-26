@@ -44,7 +44,6 @@ Also config linters for (`HTML` / `CSS3` / `JavaScript`) in the `.github` folder
 
 📌 **Key Features:**
 - Responsive layout for all screens
-- Score list is loaded dynamically
  
 <p align="right"><a href="#title">back to top</a></p>
 
