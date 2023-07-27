@@ -41,6 +41,8 @@ Also config linters for (`HTML` / `CSS3` / `JavaScript`) in the `.github` folder
 
 📌 **Key Features:**
 - Responsive layout for all screens
+- Inserts new player name & score
+- Automatic loading of players scores
  
 <p align="right"><a href="#title">back to top</a></p>
 
