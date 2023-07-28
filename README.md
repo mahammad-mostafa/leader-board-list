@@ -33,6 +33,9 @@ Scores are loaded with asynchronous calls using `async` functions & `promises`.
 All project files are contained in `src` directory.
 Also config linters for (`HTML` / `CSS3` / `JavaScript`) in the `.github` folder.
 
+📌 **Live Demo:**
+- See the project live from [here](https://mahammad-mostafa.github.io/leaderboard-list-app/dist).
+
 📌 **Tech Stack:**
 - Page strucutre is built with `HTML5`
 - Styling is built with `CSS3`
@@ -41,8 +44,10 @@ Also config linters for (`HTML` / `CSS3` / `JavaScript`) in the `.github` folder
 
 📌 **Key Features:**
 - Responsive layout for all screens
+- Dark themed color palette
 - Inserts new player name & score
 - Automatic loading of players scores
+- List scrolling when height overflows
  
 <p align="right"><a href="#title">back to top</a></p>
 
