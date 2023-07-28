@@ -1,41 +1,83 @@
+:root {
+  --dark-color: #000;
+  --light-color: #fff;
+  --overlay-color: rgba(255, 255, 255, 0.25);
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+html {
+  background-color: var(--dark-color);
+}
+
 body {
+  height: 100vh;
+  display: flex;
   padding: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--light-color);
+  font: 16px tahoma, serif;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  height: calc(100vh - 100px);
+  display: flex;
+  gap: 50px;
+  overflow: hidden;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 button {
-  padding: 5px;
+  cursor: pointer;
+  padding: 10px 20px;
+  color: var(--light-color);
+  background-color: var(--overlay-color);
+  border-radius: 5px;
+  border: 0;
+  transition: all 0.1s ease;
 }
 
 .list {
+  overflow: hidden;
+}
+
+.list div {
   display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
   justify-content: space-between;
-  margin: 50px auto;
 }
 
 .list ul {
   width: 100%;
+  max-height: calc(100% - 45px);
   list-style: none;
-  border: 1px solid;
+  overflow-y: scroll;
+  border-radius: 5px;
+  border: 1px solid var(--overlay-color);
+  margin-top: 10px;
 }
 
 .list li {
-  padding: 5px;
+  padding: 10px;
 }
 
 .list li:nth-child(even) {
-  background-color: #eee;
+  background-color: var(--overlay-color);
 }
 
 .list h3 {
   font-style: italic;
+  text-align: center;
+  color: var(--overlay-color);
 }
 
 .form form {
@@ -47,20 +89,25 @@ button {
 
 .form input {
   width: 100%;
-  padding: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: inherit;
+  border: 0;
+  outline: none;
 }
 
 @media only screen and (min-width: 768px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
   body {
     max-width: 1000px;
     margin: auto;
   }
 
   main {
-    max-width: 800px;
-    display: flex;
-    justify-content: space-between;
-    margin: 50px auto;
+    flex-direction: row;
   }
 
   .list,
@@ -70,7 +117,21 @@ button {
     margin: 0;
   }
 
+  .list,
+  .form form {
+    gap: 20px;
+  }
+
+  .form form {
+    margin-top: 20px;
+  }
+
   .form button {
     align-self: flex-end;
+  }
+
+  button:hover {
+    color: var(--dark-color);
+    background-color: var(--light-color);
   }
 }

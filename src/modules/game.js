@@ -6,8 +6,8 @@ export default class {
   }
 
   notCreated = () => {
-    if (this.id === null) return false;
-    return true;
+    if (this.id === null) return true;
+    return false;
   }
 
   storeId = (id) => {
