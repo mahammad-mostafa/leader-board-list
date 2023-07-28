@@ -28,10 +28,10 @@
         <h2>Add your score</h2>
         <form method="post">
           <label>
-            <input type="text" name="name" placeholder="Your name" required />
+            <input type="text" name="name" placeholder="Your name" maxlength="25" required />
           </label>
           <label>
-            <input type="number" name="score" placeholder="Your score" min="0" required />
+            <input type="number" name="score" placeholder="Your score" min="0" max="100000" required />
           </label>
           <button type="submit">Submit</button>
         </form>
