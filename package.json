@@ -1,5 +1,5 @@
 {
-  "name": "leaderboard-list-app",
+  "name": "leader-board-list-app",
   "version": "1.0.0",
   "description": "Leaderboard list app",
   "main": "index.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mahammad-mostafa/leaderboard-list-app.git"
+    "url": "git+https://github.com/mahammad-mostafa/leader-board-list-app.git"
   },
   "keywords": [],
   "author": "Mahammad Mostafa",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mahammad-mostafa/leaderboard-list-app/issues"
+    "url": "https://github.com/mahammad-mostafa/leader-board-list-app/issues"
   },
-  "homepage": "https://github.com/mahammad-mostafa/leaderboard-list-app/dist",
+  "homepage": "https://github.com/mahammad-mostafa/leader-board-list-app/dist",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.8.1",

@@ -34,7 +34,7 @@ All project files are contained in `src` directory.
 Also config linters for (`HTML` / `CSS3` / `JavaScript`) in the `.github` folder.
 
 📌 **Live Demo:**
-- See the project live from [here](https://mahammad-mostafa.github.io/leaderboard-list-app/dist).
+- See the project live from [here](https://mahammad-mostafa.github.io/leader-board-list-app/dist).
 
 📌 **Tech Stack:**
 - Page strucutre is built with `HTML5`
