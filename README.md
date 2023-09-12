@@ -2,7 +2,7 @@
 
 <!-- TITLE -->
 
-# 🏷️ Leader Board List App
+# 🏷️ Leader Board List
 
 This is the seventh project in the second module of the **Microverse** program.
 <br/>
